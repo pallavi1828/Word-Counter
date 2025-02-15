@@ -6,7 +6,7 @@ def count_words():
         # Check if the user wants to exit
         if user_input.lower() == 'exit':
             print("Exiting the program. Goodbye!")
-            break
+            break 
         
         # Check for empty input
         if not user_input.strip():
